@@ -10,4 +10,8 @@ public class Library {
     public int getStockCount() {
         return stockList.size();
     }
+
+    public void addBook(Book book) {
+        stockList.add(book);
+    }
 }
