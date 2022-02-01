@@ -17,5 +17,5 @@ public class BookTest {
         assertEquals("Elmore Leonard", book.getAuthor());
         assertEquals("Crime", book.getGenre());
     }
-    
+
 }
