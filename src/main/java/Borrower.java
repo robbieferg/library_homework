@@ -10,4 +10,9 @@ public class Borrower {
     public int getBookCollectionCount() {
         return bookCollection.size();
     }
+
+    public void borrowBook(Library library, Book book) {
+        library.removeBook(book);
+        this.bookCollection.add(book);
+    }
 }
